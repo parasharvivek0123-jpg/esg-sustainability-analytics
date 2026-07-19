@@ -41,7 +41,7 @@ The large CSVs (`preprocessed_content.csv`, `esg_features.csv`, `esg_risk.csv`) 
 | 5. Risk Index | 0.40 E + 0.30 S + 0.30 G, normalized and ranked | 263 companies ranked |
 | 6. Forecast | leakage-safe regression | Linear Regression, R² 0.913, beats naive baseline |
 | 7. GenAI Copilot | RAG over the ESG data (TF-IDF retrieval + Mistral generation) | data-grounded Q&A, key kept in `.env` |
-| 8. Dashboard | Streamlit app (filters, KPIs, trend, top-10, table) | `streamlit run app.py`, demo-able |
+| 8. Dashboard | Streamlit app (filters, KPIs, trend, top-10, table) **+ live Next-Year Forecast panel** using the Step 6 model | `streamlit run app.py`, demo-able |
 
 ## Key decisions
 
