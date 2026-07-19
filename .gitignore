@@ -8,5 +8,6 @@ __pycache__/
 *.pyc
 .DS_Store
 
-# scratch
-_results78.json
+# secrets & regenerated intermediate data
+.env
+data/

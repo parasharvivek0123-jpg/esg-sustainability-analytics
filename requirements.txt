@@ -4,4 +4,8 @@ scikit-learn
 matplotlib
 seaborn
 joblib
+plotly
+streamlit
+mistralai
+python-dotenv
 jupyter
