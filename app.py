@@ -5,7 +5,7 @@ import pandas as pd, plotly.express as px
 st.set_page_config(page_title="ESG Analytics", layout="wide")
 df = pd.read_pickle("data/features.pkl")   # clean + feature-engineered data
 
-st.title("🌱 ESG Analytics Dashboard")
+st.title("ESG Analytics Dashboard")
 st.caption(f"{df.shape[0]} reports · {df['ticker'].nunique()} companies · 2014-2023")
 
 # ---- Sidebar filters ----
