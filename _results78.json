@@ -1,0 +1,13 @@
+{
+  "lin_cv_mean": 0.922,
+  "lin_cv_std": 0.01,
+  "rf_cv_mean": 0.904,
+  "rf_cv_std": 0.012,
+  "temporal_mean_r2": 0.856,
+  "temporal_years": "2021-2023",
+  "top_driver": "prev_total",
+  "top_driver_val": 3.467,
+  "best_k": 3,
+  "silhouette": 0.336,
+  "n_companies": 263
+}
